@@ -1,0 +1,30 @@
+.sign-field-fields-btn {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.sign-field-fields-btn__input {
+    width: 250px;
+    height: 40px;
+    font-size: 18px;
+    border-width: 1px;
+    border-color: #fff;
+    border-style:solid;
+    background-color: #474b78;
+    color: #fff;
+    margin-top: 15px;
+}
+
+.sign-field-fields-btn__btn {
+    width: 250px;
+    height: 40px;
+    font-size: 18px;
+    border-width: 1px;
+    border-color: #ff6d6e;
+    border-style:solid;
+    background-color: #ff6d6e;
+    color: #fff;
+    margin-top: 15px;
+}

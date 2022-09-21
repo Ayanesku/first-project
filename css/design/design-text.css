@@ -1,0 +1,5 @@
+.design-text {
+    flex-direction: column;
+    width: 750px;
+    align-self: center;
+}

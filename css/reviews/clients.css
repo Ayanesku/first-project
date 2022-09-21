@@ -1,0 +1,25 @@
+.clients {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.clients__icon {
+    width: 120px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .clients {
+        display: flex;
+        flex-direction: column;
+        flex-grow: calc(950 / 7);
+        align-items: center;
+        order: 2;
+    }
+    
+    .clients__icon {
+        width: 120px;
+    }
+}

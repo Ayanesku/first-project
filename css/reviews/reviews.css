@@ -1,0 +1,29 @@
+.reviews {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("../../img/bg/bgclients.png");
+}
+
+@media screen and (max-width: 992px) {
+    .reviews {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        background-image: url("../../img/bg/bgclients.png");
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .reviews {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        background-image: url("../../img/bg/bgclients.png");
+        height: 950px;
+    }
+}

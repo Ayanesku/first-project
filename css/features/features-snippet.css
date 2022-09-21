@@ -1,0 +1,18 @@
+.features-snippet {
+    display: flex;
+    flex-wrap: no-wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .features-snippet {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}

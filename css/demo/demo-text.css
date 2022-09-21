@@ -1,0 +1,11 @@
+.demo-text {
+    width: 668px;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .demo-text {
+        width: 768px;
+        text-align: center;
+    }
+}

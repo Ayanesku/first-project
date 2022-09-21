@@ -1,0 +1,27 @@
+.design-image-second {
+    background-image: url("../../img/bg/bgdescription.png");
+    background-repeat: no-repeat;
+    height: 569px;
+}
+
+.design-image-second__macbook {
+    margin-top: 100px;
+    margin-left: 60px;
+}
+
+
+@media only screen and (max-width: 992px) {
+    .design-image-second {
+        visibility: hidden;
+        background-image: url("../../img/bg/bgdescription.png");
+        background-repeat: no-repeat;
+        height: 569px;
+        order: 2;
+    }
+    
+    .design-image-second__macbook {
+        margin-top: 100px;
+        margin-left: 60px;
+        visibility: hidden;
+    }
+}

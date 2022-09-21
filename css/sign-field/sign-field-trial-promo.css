@@ -1,0 +1,13 @@
+.sign-field-trial-promo {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.sign-field-trial-promo__text {
+    color: #fff;
+    padding-left: 15px;
+    font-size: 16px;
+    margin-right: 35px;
+}

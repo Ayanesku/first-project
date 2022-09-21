@@ -1,0 +1,17 @@
+.features-snippet-block {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 250px;
+}
+
+.features-snippet-block__title {
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.features-snippet-block__text {
+    font-size: 16px;
+}

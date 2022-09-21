@@ -1,0 +1,12 @@
+.footer-links-block-social {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.footer-links-block-social__btn {
+    width: 45px;
+    height: 45px;
+}

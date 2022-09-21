@@ -1,0 +1,6 @@
+.footer-links-block-fields {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: baseline;
+}

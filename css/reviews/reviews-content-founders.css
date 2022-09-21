@@ -1,0 +1,25 @@
+.reviews-content-founders {
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 992px) {
+    .reviews-content-founders {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .reviews-content-founders {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
